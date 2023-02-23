@@ -1,0 +1,29 @@
+Feb 23 07:35:02.643 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 23 07:35:02.644 HYPERVISOR: Started on IP = localhost, TCP port = 49762.
+Feb 23 07:35:03.141 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 23 07:35:03.141 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips 
+Feb 23 07:35:03.142 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips
+Feb 23 07:35:03.142 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\c085759a-6a9a-4e97-8e3a-930183492e0d 
+Feb 23 07:35:03.143 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\c085759a-6a9a-4e97-8e3a-930183492e0d
+Feb 23 07:35:03.143 HYPERVISOR: exec_cmd: vm create CORE 7 c3745 
+Feb 23 07:35:03.145 VM: VM CORE created.
+Feb 23 07:35:03.146 HYPERVISOR: exec_cmd: vm set_con_tcp_port CORE 5013 
+Feb 23 07:35:03.146 HYPERVISOR: exec_cmd: c3745 get_mac_addr CORE 
+Feb 23 07:35:03.147 HYPERVISOR: exec_cmd: vm set_disk0 CORE 0 
+Feb 23 07:35:03.148 HYPERVISOR: exec_cmd: vm set_exec_area CORE 64 
+Feb 23 07:35:03.149 HYPERVISOR: exec_cmd: vm get_status CORE 
+Feb 23 07:35:03.149 HYPERVISOR: exec_cmd: vm set_idle_pc CORE 0x60aa311c 
+Feb 23 07:35:03.150 HYPERVISOR: exec_cmd: vm set_ios CORE C:/Users/paulm/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 23 07:35:03.151 HYPERVISOR: exec_cmd: c3745 set_mac_addr CORE c407.33cc.0000 
+Feb 23 07:35:03.152 HYPERVISOR: exec_cmd: vm set_nvram CORE 256 
+Feb 23 07:35:03.152 HYPERVISOR: exec_cmd: vm set_ram CORE 256 
+Feb 23 07:35:03.153 HYPERVISOR: exec_cmd: vm get_status CORE 
+Feb 23 07:35:03.153 HYPERVISOR: exec_cmd: vm slot_add_binding CORE 1 0 NM-4T 
+Feb 23 07:35:03.154 HYPERVISOR: exec_cmd: vm get_status CORE 
+Feb 23 07:35:03.154 HYPERVISOR: exec_cmd: vm slot_add_binding CORE 2 0 NM-4T 
+Feb 23 07:35:03.224 HYPERVISOR: exec_cmd: nio create_udp udp-f72b969d-a765-48a3-9902-b5dc45e0096e 10002 127.0.0.1 10003 
+Feb 23 07:35:03.581 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE 0 0 udp-f72b969d-a765-48a3-9902-b5dc45e0096e 
+Feb 23 07:35:03.583 HYPERVISOR: exec_cmd: vm get_status CORE 
+Feb 23 07:35:04.205 HYPERVISOR: exec_cmd: nio create_udp udp-13f7c43f-71f5-4367-a030-5066e32053fa 10010 127.0.0.1 10011 
+Feb 23 07:35:04.209 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE 0 1 udp-13f7c43f-71f5-4367-a030-5066e32053fa 
+Feb 23 07:35:04.209 HYPERVISOR: exec_cmd: vm get_status CORE 

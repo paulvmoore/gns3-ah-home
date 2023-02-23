@@ -1,0 +1,29 @@
+Feb 23 07:35:01.447 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 23 07:35:01.448 HYPERVISOR: Started on IP = localhost, TCP port = 49756.
+Feb 23 07:35:01.937 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 23 07:35:01.938 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips 
+Feb 23 07:35:01.939 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips
+Feb 23 07:35:01.940 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\fbd251bb-3c14-4bb9-b794-0a17999f3563 
+Feb 23 07:35:01.942 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\fbd251bb-3c14-4bb9-b794-0a17999f3563
+Feb 23 07:35:01.943 HYPERVISOR: exec_cmd: vm create GW1 5 c3745 
+Feb 23 07:35:01.950 VM: VM GW1 created.
+Feb 23 07:35:01.952 HYPERVISOR: exec_cmd: vm set_con_tcp_port GW1 5011 
+Feb 23 07:35:01.952 HYPERVISOR: exec_cmd: c3745 get_mac_addr GW1 
+Feb 23 07:35:01.954 HYPERVISOR: exec_cmd: vm set_disk0 GW1 0 
+Feb 23 07:35:01.955 HYPERVISOR: exec_cmd: vm set_exec_area GW1 64 
+Feb 23 07:35:01.957 HYPERVISOR: exec_cmd: vm get_status GW1 
+Feb 23 07:35:01.957 HYPERVISOR: exec_cmd: vm set_idle_pc GW1 0x60aa311c 
+Feb 23 07:35:01.961 HYPERVISOR: exec_cmd: vm set_ios GW1 C:/Users/paulm/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 23 07:35:01.962 HYPERVISOR: exec_cmd: c3745 set_mac_addr GW1 c405.322c.0000 
+Feb 23 07:35:01.963 HYPERVISOR: exec_cmd: vm set_nvram GW1 256 
+Feb 23 07:35:01.965 HYPERVISOR: exec_cmd: vm set_ram GW1 256 
+Feb 23 07:35:01.966 HYPERVISOR: exec_cmd: vm get_status GW1 
+Feb 23 07:35:01.967 HYPERVISOR: exec_cmd: vm slot_add_binding GW1 1 0 NM-4T 
+Feb 23 07:35:01.968 HYPERVISOR: exec_cmd: vm get_status GW1 
+Feb 23 07:35:01.969 HYPERVISOR: exec_cmd: vm slot_add_binding GW1 2 0 NM-4T 
+Feb 23 07:35:03.606 HYPERVISOR: exec_cmd: nio create_udp udp-053493c9-df7c-4205-a7fc-e2045c123193 10004 127.0.0.1 10005 
+Feb 23 07:35:03.872 HYPERVISOR: exec_cmd: vm slot_add_nio_binding GW1 0 0 udp-053493c9-df7c-4205-a7fc-e2045c123193 
+Feb 23 07:35:03.874 HYPERVISOR: exec_cmd: vm get_status GW1 
+Feb 23 07:35:04.511 HYPERVISOR: exec_cmd: nio create_udp udp-a7d06241-3ddc-4bf0-9f90-3b5e0d10c650 10016 127.0.0.1 10017 
+Feb 23 07:35:04.515 HYPERVISOR: exec_cmd: vm slot_add_nio_binding GW1 1 0 udp-a7d06241-3ddc-4bf0-9f90-3b5e0d10c650 
+Feb 23 07:35:04.516 HYPERVISOR: exec_cmd: vm get_status GW1 

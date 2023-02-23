@@ -1,0 +1,29 @@
+Feb 23 07:34:59.606 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 23 07:34:59.607 HYPERVISOR: Started on IP = localhost, TCP port = 49747.
+Feb 23 07:35:00.101 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 23 07:35:00.102 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips 
+Feb 23 07:35:00.103 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips
+Feb 23 07:35:00.104 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\44e3032d-5149-4989-a218-da2866694126 
+Feb 23 07:35:00.106 GENERAL: working_dir=C:\Users\paulm\GNS3\projects\AH Home VPN OSPF\project-files\dynamips\44e3032d-5149-4989-a218-da2866694126
+Feb 23 07:35:00.107 HYPERVISOR: exec_cmd: vm create P1 2 c3745 
+Feb 23 07:35:00.112 VM: VM P1 created.
+Feb 23 07:35:00.114 HYPERVISOR: exec_cmd: vm set_con_tcp_port P1 5008 
+Feb 23 07:35:00.114 HYPERVISOR: exec_cmd: c3745 get_mac_addr P1 
+Feb 23 07:35:00.116 HYPERVISOR: exec_cmd: vm set_disk0 P1 0 
+Feb 23 07:35:00.117 HYPERVISOR: exec_cmd: vm set_exec_area P1 64 
+Feb 23 07:35:00.117 HYPERVISOR: exec_cmd: vm get_status P1 
+Feb 23 07:35:00.118 HYPERVISOR: exec_cmd: vm set_idle_pc P1 0x60aa311c 
+Feb 23 07:35:00.119 HYPERVISOR: exec_cmd: vm set_ios P1 C:/Users/paulm/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 23 07:35:00.120 HYPERVISOR: exec_cmd: c3745 set_mac_addr P1 c402.1ec4.0000 
+Feb 23 07:35:00.121 HYPERVISOR: exec_cmd: vm set_nvram P1 256 
+Feb 23 07:35:00.122 HYPERVISOR: exec_cmd: vm set_ram P1 256 
+Feb 23 07:35:00.122 HYPERVISOR: exec_cmd: vm get_status P1 
+Feb 23 07:35:00.123 HYPERVISOR: exec_cmd: vm slot_add_binding P1 1 0 NM-4T 
+Feb 23 07:35:00.123 HYPERVISOR: exec_cmd: vm get_status P1 
+Feb 23 07:35:00.124 HYPERVISOR: exec_cmd: vm slot_add_binding P1 2 0 NM-4T 
+Feb 23 07:35:04.638 HYPERVISOR: exec_cmd: nio create_udp udp-9c9bc441-e767-4693-8cc5-abd9781bde8f 10028 127.0.0.1 10029 
+Feb 23 07:35:04.886 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 1 2 udp-9c9bc441-e767-4693-8cc5-abd9781bde8f 
+Feb 23 07:35:04.887 HYPERVISOR: exec_cmd: vm get_status P1 
+Feb 23 07:35:05.288 HYPERVISOR: exec_cmd: nio create_udp udp-bf96c0b4-d5be-4d17-9704-223bc49b6cbb 10038 127.0.0.1 10039 
+Feb 23 07:35:05.290 HYPERVISOR: exec_cmd: vm slot_add_nio_binding P1 0 0 udp-bf96c0b4-d5be-4d17-9704-223bc49b6cbb 
+Feb 23 07:35:05.290 HYPERVISOR: exec_cmd: vm get_status P1 
